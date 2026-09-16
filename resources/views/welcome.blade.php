@@ -45,6 +45,15 @@
                     </svg>
                 </div>
 
+                <div style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="{{ route('produtos.index') }}" style="background-color: #EF3B2D; color: #fff; padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">
+                        Ver Produtos
+                    </a>
+                    <a href="{{ route('itens.index') }}" style="background-color: #1f2937; color: #fff; padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 600;">
+                        Ver Itens
+                    </a>
+                </div>
+
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
